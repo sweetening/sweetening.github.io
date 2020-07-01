@@ -1,53 +1,97 @@
 <html>
   <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Asap&family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body>
-    <div class="background">
-      <div class="container">
-      <title>Sanja Wetzel, Fullstack Web Developer</title>
-        <meta name= "description" content= "Description of my profile page">
-        <meta charset="utf-8">
-          <h1>Sanja Wetzel
+    <title>Sanja Wetzel, Fullstack Web Developer</title>
+      <meta name= "description" content= "Sanja Wetzel: Fullstack Web Developer, Cycling Community Advocate, Singer">
+      <meta charset="utf-8">
+        <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);">
+          <div class="banner-container">
+            <h1>Sanja Wetzel</h1>
             <br>
-            Fullstack Web Developer</h1>
-          <div class="image">
-            <img src="../images/profile.jpg" alt= "Profile photo of Sanja" width="280" height="370" >
+            <h2>Fullstack Web Developer</h2>
+              <ul>
+                <a href="https://www.linkedin.com/in/sanja-wetzel" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/sweetening" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/nightcap_brooklyn/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://elliottsgirlschorus.bandcamp.com/album/elliotts-girls-chorus" target="_blank"><i class="fab fa-bandcamp"></i></a>
+              </ul>
           </div>
-              <h2>Web Developer <i class="fas fa-wifi"></i> Cycling Community Advocate <i class="fas fa-transgender-alt"></i> Singer</h2>
-                <h3><a class="btn" href="https://www.linkedin.com/in/sanja-wetzel">Let's connect!</a></h3>
-                  <p>I am presently seeking opportunities at a growing startup with a strong
-                  commitment to social causes, particularly those that create opportunities
-                  for trans and nonbinary folks and women globally.</p>
-
-                  <p>My projects from Le Wagon can be found here:</p>
-                    <ul>
-                      <a href="http://www.welcome-mentors.com/" target="_blank"><i class="far fa-compass"></i> Welcome</a></i>
-                      <br>
-                      <a href="https://bike-match-sweetening.herokuapp.com/" target="_blank"><i class="fas fa-bicycle"></i> Bike Match</a>
-                    </ul>
-
-                  <p>For more information on my cycling organization NightCAP Brooklyn and one of my musical projects, Elliott's Girls Chorus, follow the links below!</p>
-                  <div class="image">
-                    <ul>
-                      <a href="https://www.instagram.com/nightcap_brooklyn/?hl=en" target="_blank"><img src="../images/nightcap.jpg" alt= "photo of nightcap_brooklyn" width="300" height="300" ></a>
-                      <a href="https://elliottsgirlschorus.bandcamp.com/album/elliotts-girls-chorus" target="_blank"><img src="../images/EGC.jpg" alt= "photo of elliottsgirlschorus" width="300" height="300" ></a>
-                    </ul>
+        </div>
+          <div class="background">
+          <div class="image">
+            <h1>About Me</h1>
+              <img src="images/profile.jpg" alt= "Profile photo of Sanja" width="280" height="370" >
+              <div class="description">
+                <p>After 17 years in the service industry, amid the Coronavirus pandemic
+                in Spring 2020, I decided to pivot my career and pursue web development by joining
+                <b>Le Wagon Berlin</b> for a 9 week intensive bootcamp. During that time I built my
+                first apps and in the process discovered my passion for creating digital products,
+                nurtured my creativity in web design, and expanded my knowledge of programming languages.</p>
+                <br>
+                <p>I am presently seeking opportunities at a growing startup with a strong
+                commitment to social causes, particularly those that create opportunities
+                for trans and nonbinary folks and women globally.</p>
+              </div>
+          </div>
+                  <h1>Recent Projects</h1>
+                  <div style="display: flex; justify-content: space-around;">
+                    <div class="card-trip">
+                      <img src="images/Welcome.png" />
+                      <div class="card-trip-infos">
+                        <div>
+                          <h2><a href="http://www.welcome-mentors.com/" target="_blank"><i class="far fa-compass"></i> Welcome</a></h2>
+                          <p>A web application designed to help working professionals relocating to Berlin by providing useful articles, resources, and connections with mentors that have already made the move.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-trip">
+                      <img src="images/BikeMatch.png" />
+                      <div class="card-trip-infos">
+                        <div>
+                          <h2><a href="https://bike-match-sweetening.herokuapp.com/" target="_blank"><i class="fas fa-bicycle"></i> Bike Match</a></h2>
+                          <p>Bike Match is an AirBnB clone built in one week which pairs cyclists in Berlin with bikes for rent in their preferred size and style.</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-      </div>
-      <div class="card">
-        <h1>Follow me:</h1>
-          <ul>
-            <a href="https://www.linkedin.com/in/sanja-wetzel" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/sweetening" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://www.instagram.com/nightcap_brooklyn/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://elliottsgirlschorus.bandcamp.com/album/elliotts-girls-chorus" target="_blank"><i class="fab fa-bandcamp"></i></a>
-          </ul>
+                  <br>
+                  <div class="image">
+                    <h1>Personal Projects</h1>
+                    <div class="description">
+                      <p>For more information on my cycling organization NightCAP Brooklyn and one of my musical projects, Elliott's Girls Chorus, follow the links below!</p>
+                    </div>
+                    <div style="display: flex; justify-content: space-around;">
+                    <div class="card-trip">
+                        <img src="images/Nightcap_page.png" />
+                        <div class="card-trip-infos">
+                          <div>
+                            <h2><a href="https://www.instagram.com/nightcap_brooklyn/?hl=en" target="_blank">NightCAP Brooklyn</a></h2>
+                            <p>I founded this social cycling organization for riders who aren’t traditionally represented in bicycle culture.
+                            NightCAP (which stands for Cycling Against the Patriarchy) exists for the trans and non-binary community, and allied cis women
+                          who agree that life is better on two wheels.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-trip">
+                        <img src="images/Bandcamp.png" />
+                        <div class="card-trip-infos">
+                          <div>
+                            <h2><a href="https://www.instagram.com/nightcap_brooklyn/?hl=en" target="_blank">Elliott's Girls Chorus</a></h2>
+                            <p>A pop chorus of wild women led, written, and produced by Elliott Abaza, bass by Felix Pastorius, and a revolving line up of participating singers.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
       </div>
     </div>
   </body>
