@@ -6,6 +6,11 @@
   align-items: center;
   margin: 0 auto;
 }
+.banner-container {
+  margin: 0 auto;
+  padding: 2px;
+  align-items: center;
+}
 
 .banner h2 {
   color: orange;
@@ -14,6 +19,8 @@
 
 .banner h1 {
   margin: 0 auto;
+  margin-top: 85px;
+  padding: 4px;
   color: orange;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 80px;
@@ -36,7 +43,7 @@ nav {
 }
 
 ul {
-  justify-content: center;
+  padding: 0;
 }
 
 ul li {
@@ -44,11 +51,12 @@ ul li {
   display: inline-block;
   margin: 0 auto;
   margin-bottom: 150px;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 ul li a {
   display: block;
+  padding: 10px;
 }
 
 .container {
