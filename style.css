@@ -83,6 +83,7 @@ ul li a {
   width: 600px;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .card {
@@ -110,7 +111,7 @@ ul li a {
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .card-trip > img {
