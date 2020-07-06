@@ -55,6 +55,7 @@ ul li a {
   background: white;
   padding: 10px 10px;
   margin-top: 2px;
+  margin: 0 auto;
   .h3 {
     font-size: 25px;
     font-weight: bold;
