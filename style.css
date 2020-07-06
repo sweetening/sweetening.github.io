@@ -4,6 +4,7 @@
   background-position: center;
   padding: 20px 0;
   align-items: center;
+  margin: 0 auto;
 }
 
 .banner h2 {
@@ -12,7 +13,7 @@
 }
 
 .banner h1 {
-  margin: 0;
+  margin: 0 auto;
   color: orange;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 80px;
