@@ -54,7 +54,7 @@ ul li a {
   margin: 0 auto;
   background: white;
   padding: 10px 10px;
-  margin-top: 20px;
+  margin-top: 2px;
   .h3 {
     font-size: 25px;
     font-weight: bold;
@@ -77,13 +77,14 @@ ul li a {
 
 .photo {
   border-radius: 50%;
+  margin-top: 20px;
 }
 
 .description {
   width: 600px;
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .card {
@@ -110,8 +111,8 @@ ul li a {
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  margin-top: 20px;
-  margin-bottom: 100px;
+  margin-top: 60px;
+  margin-bottom: 120px;
 }
 
 .card-trip > img {
@@ -211,7 +212,7 @@ h1 {
   font-size: 40px;
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 h2 {
