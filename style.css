@@ -239,3 +239,7 @@ h3, p {
   text-align: center;
   font-size: 20px;
 }
+
+.cv {
+  box-shadow: 0px 0px 10px grey;
+}
