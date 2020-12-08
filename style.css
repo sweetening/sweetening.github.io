@@ -146,7 +146,7 @@ ul li a {
 }
 
 .card-trip {
-  width: 550px;
+  width: 500px;
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -155,9 +155,9 @@ ul li a {
 }
 
 .card-trip > img {
-  height: 280px;
-  width: 550px;
-  object-fit: center;
+  height: 260px;
+  width: 100%;
+  object-fit: scale-down;
 }
 
 .card-trip h2 {
