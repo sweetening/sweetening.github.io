@@ -14,7 +14,7 @@
 
 .banner h2 {
   color: orange;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .banner h1 {
@@ -22,7 +22,7 @@
   margin-top: 85px;
   padding: 4px;
   color: orange;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   font-size: 80px;
   font-weight: bold;
 }
@@ -30,8 +30,8 @@
 .banner p {
   font-size: 20px;
   color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  opacity: 0.7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 nav {
@@ -99,40 +99,37 @@ ul li a {
 
 .cards {
   display: inline-grid;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding-left: 30px;
+  padding-right: 30px;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 60px;
+  grid-gap: 2px;
 }
 
-// Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
     grid-template-columns: 1fr;
   }
 }
 
-// Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   .cards {
     grid-template-columns: 1fr;
   }
 }
 
-// Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .cards {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-// Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .cards {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-// Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .cards {
     grid-template-columns: 1fr 1fr;
@@ -149,13 +146,14 @@ ul li a {
   width: 500px;
   overflow: hidden;
   background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   margin-top: 60px;
   margin-bottom: 120px;
+  border-radius: 20px;
 }
 
 .card-trip > img {
-  height: 260px;
+  height: 240px;
   width: 100%;
   object-fit: scale-down;
 }
@@ -168,7 +166,7 @@ ul li a {
 
 .card-trip p {
   font-size: 12px;
-  opacity: .7;
+  opacity: 0.7;
   margin: 0;
 }
 
@@ -194,7 +192,7 @@ ul li a {
 }
 
 .btn {
-  width: 100%;
+  width: 40%;
   padding: 10px;
   margin-top: 30px;
   border-radius: 25px;
@@ -213,7 +211,7 @@ ul li a {
   width: 100%;
   margin: 0 auto;
   padding: 4px;
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
 }
 
 .img {
@@ -232,7 +230,7 @@ a {
 a:hover {
   text-decoration: none;
   opacity: 0.8;
-  color: #0E4749;
+  color: #0e4749;
 }
 
 body {
@@ -240,12 +238,11 @@ body {
   opacity: 0.9;
   text-align: center;
   justify-content: all;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding-bottom: 5px;
-
 }
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   color: #204051;
   font-size: 40px;
@@ -255,16 +252,16 @@ h1 {
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 40px;
   text-align: center;
 }
 
-h3, p {
-  color: #2B2D42;
-  font-weight: lighter;
-  font-family: 'Open Sans', sans-serif;
+h3,
+p {
+  color: #2b2d42;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   font-size: 20px;
 }
