@@ -44,6 +44,7 @@ nav {
 
 ul {
   padding: 0;
+  font-size: 24px;
 }
 
 ul li {
@@ -65,18 +66,18 @@ ul li a {
   background: white;
   padding: 10px 10px;
   margin-top: 2px;
-  .h3 {
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  .btn {
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: white;
-  }
+}
+.btn {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .container ul {
@@ -230,7 +231,7 @@ a {
 a:hover {
   text-decoration: none;
   opacity: 0.8;
-  color: #0e4749;
+  color: #2981f4;
 }
 
 body {
